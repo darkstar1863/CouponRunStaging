@@ -107,14 +107,35 @@ function go(next, opts = {}) {
   if (opts.saveBack) saveBack(opts.saveBack);
   view = next; render();
 }
+// Anchor navigation (static Back, 2026-11-01): Coupons and Runs always
+// return to Home, Run always returns to Runs, regardless of how the
+// anchor was reached. History is cleared on a static move, so a stale
+// transient entry can never resurface as a Back target afterwards.
+function goAnchor(next) {
+  history = [];
+  view = next; render();
+}
 function goBack() {
   const prev = history.pop() || { name: 'home' };
   view = prev; render(true);
 }
+function goStaticBack() {
+  if (view.name === 'coupons' || view.name === 'runs') goAnchor({ name: 'home' });
+  else if (view.name === 'run') goAnchor({ name: 'runs' });
+  else goBack();
+}
 backBtn.addEventListener('click', () => {
   if (view.name === 'filter') { applyFilter(); return; }
   if (view.name === 'personalEdit') { savePersonalFromForm(); return; }
-  goBack();
+  if (view.name === 'runEdit') {
+    // RunEdit header Back is a discard, not a save: stops are already
+    // saved on add/remove, so only an unsaved name change can be lost.
+    const nameVal = ($('#runName')?.value || '').trim();
+    const run = runById(view.runId);
+    if (run && nameVal && nameVal !== run.name && !confirm('Discard the name change?')) return;
+    goBack(); return;
+  }
+  goStaticBack();
 });
 
 // ---- Filters (per-view settings in localStorage) ----
@@ -165,8 +186,8 @@ function renderHome() {
     <div class="alert alert-info mt-3" role="alert">${L.escapeHtml(HELP_TEXT)}</div>
     ${installed ? '' : `<div class="alert alert-warning">${L.escapeHtml(INSTALL_TEXT)}</div>`}
     <p class="text-muted small">Installed mode: ${installed ? 'yes' : 'no (web mode — browsing only)'}.</p>`;
-  $('#btnCoupons').onclick = () => go({ name: 'coupons' });
-  $('#btnRuns').onclick = () => go({ name: 'runs' });
+  $('#btnCoupons').onclick = () => goAnchor({ name: 'coupons' });
+  $('#btnRuns').onclick = () => goAnchor({ name: 'runs' });
   $('#btnFetch').onclick = async () => { const m = $('#fetchMsg'); m.textContent = 'Fetching…'; try { await doFetch(true); m.textContent = fetchStatus; renderHome(); } catch (e) { m.textContent = (master ? 'Fetch failed — previous list kept. ' : 'Fetch failed — no list loaded yet. ') + e.message; updateNoListLock(); } };
 }
 function toolbarHtml(viewMode, filterActive, ctx) {
@@ -233,7 +254,7 @@ function renderRuns() {
 }
 function runById(id) { return runs.find(r => r.id === id); }
 function renderRun(isBack) {
-  const run = runById(view.runId); if (!run) { go({ name: 'runs' }); return; }
+  const run = runById(view.runId); if (!run) { goAnchor({ name: 'runs' }); return; }
   const settings = loadView('view-run-' + run.id, { mode: 'list' });
   const filter = getFilter('run');
   const inRun = run.stops.map(s => ({ stop: s, coupon: byId(s.couponId) })).filter(x => x.coupon);
@@ -262,7 +283,7 @@ function renderRun(isBack) {
   if (isBack) { const b = loadBack(); if (b?.scrollY) setTimeout(() => window.scrollTo(0, b.scrollY), 0); }
 }
 function renderRunEdit() {
-  const run = runById(view.runId); if (!run) { go({ name: 'runs' }); return; }
+  const run = runById(view.runId); if (!run) { goAnchor({ name: 'runs' }); return; }
   const filter = getFilter('runEdit');
   setHeader('Edit run: ' + run.name, `<button class="btn btn-sm btn-outline-danger" id="hdrDelete">Delete</button>`, '←');
   const inIds = new Set(run.stops.map(s => s.couponId));
@@ -301,9 +322,12 @@ function renderRunEdit() {
     if (!name) { alert('Run name is required.'); return; }
     if (runs.some(r => r.id !== run.id && r.name.trim().toLowerCase() === name.toLowerCase())) { alert('A run with that name already exists. Please choose a different name.'); return; }
     run.name = name;
-    store.put('runs', run).then(() => go({ name: 'run', runId: run.id }));
+    // Done is a result, not a navigation push: Run is an anchor, so
+    // replace the edit view with it and clear history (Run's Back is
+    // static to Runs, and its children push Run themselves if needed).
+    store.put('runs', run).then(() => goAnchor({ name: 'run', runId: run.id }));
   };
-  $('#hdrDelete').onclick = () => { if (confirm(`Delete run "${run.name}"? Its stops and logs for this run will be deleted. Master and personal coupons are not deleted.`)) store.del('runs', run.id).then(() => { runs = runs.filter(r => r.id !== run.id); go({ name: 'runs' }); }); };
+  $('#hdrDelete').onclick = () => { if (confirm(`Delete run "${run.name}"? Its stops and logs for this run will be deleted. Master and personal coupons are not deleted.`)) store.del('runs', run.id).then(() => { runs = runs.filter(r => r.id !== run.id); goAnchor({ name: 'runs' }); }); };
 }
 function renderFilter() {
   const ctx = view.ctx;
@@ -353,9 +377,11 @@ function renderFilter() {
   $('#hdrCancel').onclick = () => goBackToList(ctx, true);
   $('#hdrClear').onclick = () => { const d = L.defaultFilter(); if (ctx === 'run') d.showExpired = true; setFilter(ctx, d); goBackToList(ctx); };
   function goBackToList(c, cancel = false) {
-    if (c === 'browse') go({ name: 'coupons' });
-    else if (c === 'run') go({ name: 'run', runId: view.runId });
-    else go({ name: 'runEdit', runId: view.runId });
+    // Return-to-caller: Filter was pushed onto history when opened, so
+    // popping returns to its caller (Coupons / Run / RunEdit) without
+    // pushing Filter back onto the stack — the old go(caller) version
+    // is what made Coupons <-> Filter loop forever.
+    goBack();
   }
   window._goBackToList = goBackToList;
 }
@@ -412,7 +438,7 @@ function renderDetail() {
     const inAny = runs.filter(r => r.stops.some(s => s.couponId === c.id));
     if (inAny.length) { alert(`Cannot delete: this coupon is in run(s): ${inAny.map(r => r.name).join(', ')}. Remove it from all runs first.`); return; }
     if (!confirm('Delete this personal coupon?')) return;
-    store.del('personal', c.id).then(() => { personal = personal.filter(p => p.id !== c.id); coupons = coupons.filter(x => x.id !== c.id); go({ name: 'coupons' }); });
+    store.del('personal', c.id).then(() => { personal = personal.filter(p => p.id !== c.id); coupons = coupons.filter(x => x.id !== c.id); goAnchor({ name: 'coupons' }); });
   });
   const toggle = $('#logToggle');
   if (toggle && stop) {
@@ -458,7 +484,7 @@ function renderPersonalEdit() {
     const inAny = runs.filter(r => r.stops.some(s => s.couponId === existing.id));
     if (inAny.length) { alert(`Cannot delete: this coupon is in run(s): ${inAny.map(r => r.name).join(', ')}. Remove it from all runs first.`); return; }
     if (!confirm('Delete this personal coupon?')) return;
-    store.del('personal', existing.id).then(() => { personal = personal.filter(p => p.id !== existing.id); coupons = coupons.filter(x => x.id !== existing.id); go({ name: 'coupons' }); });
+    store.del('personal', existing.id).then(() => { personal = personal.filter(p => p.id !== existing.id); coupons = coupons.filter(x => x.id !== existing.id); goAnchor({ name: 'coupons' }); });
   });
   window._savePersonal = () => {
     const title = $('#pTitle').value.trim(); if (!title) { alert('Title is required.'); return; }
@@ -471,7 +497,9 @@ function renderPersonalEdit() {
     store.put('personal', rec).then(() => {
       if (existing) { personal = personal.map(p => p.id === rec.id ? rec : p); coupons = coupons.map(x => x.id === rec.id ? { ...rec } : x); }
       else { personal.push(rec); coupons.push({ ...rec }); }
-      go({ name: 'coupons' });
+      // Return-to-caller: PersonalEdit was pushed when opened, so popping
+      // returns to its opener (Coupons, or Detail if opened from Detail).
+      goBack();
     });
   };
 }
