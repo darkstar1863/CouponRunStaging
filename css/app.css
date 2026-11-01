@@ -1,0 +1,19 @@
+/* Coupon Run — readable on a phone, standing up, in bright light. */
+body { font-size: 17px; }
+.coupon-card { cursor: pointer; }
+.coupon-card.expired-card { background: #e9ecef; }
+.cat-badge { font-size: 0.8rem; padding: 0.35em 0.5em; }
+.filter-active { font-weight: 700; border-width: 2px; }
+#map { width: 100%; z-index: 0; }
+/* Blocking overlays (no-list lock + share picker): fixed, full-screen,
+   above the app (including the fixed map buttons at z-index 1000). */
+.app-overlay { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,.6); align-items: center; justify-content: center; padding: 1rem; }
+.app-overlay .lock-card { width: 100%; max-width: 420px; }
+/* Map half-pane drag handle: a wide grip at the top of the pane card.
+   touch-action:none lets pointer drags work on touch screens. */
+.map-pane-handle { touch-action: none; cursor: grab; padding: 10px 0 6px; display: flex; justify-content: center; }
+.map-pane-handle:active { cursor: grabbing; }
+.map-pane-grip { width: 48px; height: 6px; border-radius: 3px; background: #adb5bd; }
+.btn { min-height: 44px; }
+.btn-sm { min-height: 36px; }
+a { word-break: break-word; }

@@ -1,0 +1,2082 @@
+{
+  "listVersion": 1,
+  "curatorUpdatedAt": "2026-11-01",
+  "categories": [
+    {
+      "id": "accommodations",
+      "title": "Accommodations",
+      "shortTitle": "Stay",
+      "color": "#2E86AB",
+      "displayOrder": 1
+    },
+    {
+      "id": "all-purpose-comp",
+      "title": "All Purpose Comp",
+      "shortTitle": "Comp",
+      "color": "#6C757D",
+      "displayOrder": 2
+    },
+    {
+      "id": "dining",
+      "title": "Dining",
+      "shortTitle": "Dining",
+      "color": "#D95D39",
+      "displayOrder": 3
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "shortTitle": "Drinks",
+      "color": "#7B5EA7",
+      "displayOrder": 4
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "shortTitle": "Show",
+      "color": "#C0392B",
+      "displayOrder": 5
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "shortTitle": "Exper.",
+      "color": "#1E8449",
+      "displayOrder": 6
+    },
+    {
+      "id": "match-play",
+      "title": "Match Play",
+      "shortTitle": "MP",
+      "color": "#B7950B",
+      "displayOrder": 7
+    },
+    {
+      "id": "free-play",
+      "title": "Free Play",
+      "shortTitle": "FP",
+      "color": "#117A65",
+      "displayOrder": 8
+    },
+    {
+      "id": "slot-bonus",
+      "title": "Slot Bonus",
+      "shortTitle": "SB",
+      "color": "#935116",
+      "displayOrder": 9
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-001",
+      "title": "Downtown Grand",
+      "latitude": 36.17085,
+      "longitude": -115.14175,
+      "vpfree2": "https://www.vpfree2.com/casino/downtown-grand"
+    },
+    {
+      "id": "loc-002",
+      "title": "Big Dog's Draft House",
+      "latitude": 36.24245,
+      "longitude": -115.23587,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-003",
+      "title": "Four Queens",
+      "latitude": 36.16995,
+      "longitude": -115.1433,
+      "vpfree2": "https://www.vpfree2.com/casino/four-queens-hotel-casino"
+    },
+    {
+      "id": "loc-004",
+      "title": "Sporting Life Bar",
+      "latitude": 36.0482,
+      "longitude": -115.22493,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-005",
+      "title": "El Cortez",
+      "latitude": 36.16909,
+      "longitude": -115.13861,
+      "vpfree2": "https://www.vpfree2.com/casino/el-cortez-hotel-casino"
+    },
+    {
+      "id": "loc-006",
+      "title": "Rainbow Club & Casino",
+      "latitude": 36.03274,
+      "longitude": -114.98362,
+      "vpfree2": "https://www.vpfree2.com/casino/rainbow-club-casino"
+    },
+    {
+      "id": "loc-007",
+      "title": "Arizona Charlie's Decatur",
+      "latitude": 36.16343,
+      "longitude": -115.20723,
+      "vpfree2": "https://www.vpfree2.com/casino/arizona-charlies-decatur"
+    },
+    {
+      "id": "loc-008",
+      "title": "Ellis Island Casino",
+      "latitude": 36.11223,
+      "longitude": -115.1635,
+      "vpfree2": "https://www.vpfree2.com/casino/ellis-island-casino-brewery"
+    },
+    {
+      "id": "loc-009",
+      "title": "Binion's Gambling Hall & Hotel Apache",
+      "latitude": 36.17114,
+      "longitude": -115.14429,
+      "vpfree2": "https://www.vpfree2.com/casino/binions-gambling-hall-hotel"
+    },
+    {
+      "id": "loc-010",
+      "title": "The D",
+      "latitude": 36.16978,
+      "longitude": -115.14553,
+      "vpfree2": "https://www.vpfree2.com/casino/d-las-vegas-casino"
+    },
+    {
+      "id": "loc-011",
+      "title": "Emerald Island",
+      "latitude": 36.03264,
+      "longitude": -114.98473,
+      "vpfree2": "https://www.vpfree2.com/casino/emerald-island-casino"
+    },
+    {
+      "id": "loc-012",
+      "title": "Plaza",
+      "latitude": 36.17193,
+      "longitude": -115.14694,
+      "vpfree2": "https://www.vpfree2.com/casino/plaza-hotel-casino"
+    },
+    {
+      "id": "loc-013",
+      "title": "Eureka Casino",
+      "latitude": 36.14352,
+      "longitude": -115.14692,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-014",
+      "title": "Emerald Island Grille",
+      "latitude": 36.03264,
+      "longitude": -114.98473,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-015",
+      "title": "Klondike Sunset",
+      "latitude": 36.0644,
+      "longitude": -115.01515,
+      "vpfree2": "https://www.vpfree2.com/casino/klondike-sunset-casino"
+    },
+    {
+      "id": "loc-016",
+      "title": "Rosati's",
+      "latitude": 36.30681,
+      "longitude": -115.27903,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-017",
+      "title": "Jackson's Bar & Grill",
+      "latitude": 36.11534,
+      "longitude": -115.22358,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-018",
+      "title": "Mob Museum",
+      "latitude": 36.17282,
+      "longitude": -115.14123,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-019",
+      "title": "Treasures Gentlemen's Club",
+      "latitude": 36.14004,
+      "longitude": -115.17369,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-020",
+      "title": "The Strat",
+      "latitude": 36.14834,
+      "longitude": -115.15762,
+      "vpfree2": "https://www.vpfree2.com/casino/stratosphere-hotel"
+    },
+    {
+      "id": "loc-021",
+      "title": "Dream Racing",
+      "latitude": 36.27151,
+      "longitude": -115.00156,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-022",
+      "title": "Circa Resort & Casino",
+      "latitude": 36.17263,
+      "longitude": -115.14662,
+      "vpfree2": "https://www.vpfree2.com/casino/circa-resort-casino"
+    },
+    {
+      "id": "loc-023",
+      "title": "Triple George Grill",
+      "latitude": 36.17181,
+      "longitude": -115.14224,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-024",
+      "title": "Ellis Island Casino & Brewery",
+      "latitude": 36.11223,
+      "longitude": -115.1635,
+      "vpfree2": "https://www.vpfree2.com/casino/ellis-island-casino-brewery"
+    },
+    {
+      "id": "loc-025",
+      "title": "Westgate Las Vegas",
+      "latitude": 36.1357,
+      "longitude": -115.15224,
+      "vpfree2": "https://www.vpfree2.com/casino/westgate-las-vegas"
+    },
+    {
+      "id": "loc-026",
+      "title": "Crown & Anchor",
+      "latitude": null,
+      "longitude": null,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-027",
+      "title": "Taverna Costera",
+      "latitude": 36.15982,
+      "longitude": -115.15289,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-028",
+      "title": "Rio Hotel & Casino",
+      "latitude": 36.11683,
+      "longitude": -115.18862,
+      "vpfree2": "https://www.vpfree2.com/casino/rio-las-vegas"
+    },
+    {
+      "id": "loc-029",
+      "title": "Sahara Las Vegas",
+      "latitude": 36.14237,
+      "longitude": -115.15751,
+      "vpfree2": "https://www.vpfree2.com/casino/sahara-las-vegas"
+    },
+    {
+      "id": "loc-030",
+      "title": "Chicago Brewing Company",
+      "latitude": 36.17006,
+      "longitude": -115.14392,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-031",
+      "title": "Silverton",
+      "latitude": 36.0411,
+      "longitude": -115.18357,
+      "vpfree2": "https://www.vpfree2.com/casino/silverton-casino-lodge"
+    },
+    {
+      "id": "loc-032",
+      "title": "Silver Sevens Hotel & Casino",
+      "latitude": 36.11373,
+      "longitude": -115.15284,
+      "vpfree2": "https://www.vpfree2.com/casino/silver-sevens-hotel-casino"
+    },
+    {
+      "id": "loc-033",
+      "title": "Palms",
+      "latitude": 36.1143,
+      "longitude": -115.19891,
+      "vpfree2": "https://www.vpfree2.com/casino/palms"
+    },
+    {
+      "id": "loc-034",
+      "title": "Carnegie Pizza",
+      "latitude": 36.10929,
+      "longitude": -115.17076,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-035",
+      "title": "Venetian",
+      "latitude": 36.12243,
+      "longitude": -115.16829,
+      "vpfree2": "https://www.vpfree2.com/casino/venetian-resort-hotel-casino"
+    },
+    {
+      "id": "loc-036",
+      "title": "LINQ Hotel + Experience",
+      "latitude": 36.11778,
+      "longitude": -115.17249,
+      "vpfree2": "https://www.vpfree2.com/casino/linq-hotel-casino"
+    },
+    {
+      "id": "loc-037",
+      "title": "Fontainebleau",
+      "latitude": 36.13751,
+      "longitude": -115.15601,
+      "vpfree2": "https://www.vpfree2.com/casino/fontainebleau-las-vegas"
+    },
+    {
+      "id": "loc-038",
+      "title": "Comedy On Deck Tours",
+      "latitude": null,
+      "longitude": null,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-039",
+      "title": "Hypnosis Unleashed",
+      "latitude": 36.17006,
+      "longitude": -115.14392,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-040",
+      "title": "Cartzilla",
+      "latitude": 36.17002,
+      "longitude": -115.22359,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-041",
+      "title": "Miracle Mile Shops",
+      "latitude": 36.10929,
+      "longitude": -115.17076,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-042",
+      "title": "Arizona Charlie's Boulder",
+      "latitude": 36.12394,
+      "longitude": -115.07593,
+      "vpfree2": "https://www.vpfree2.com/casino/arizona-charlies-boulder"
+    },
+    {
+      "id": "loc-043",
+      "title": "Golden Gate",
+      "latitude": 36.17115,
+      "longitude": -115.14622,
+      "vpfree2": "https://www.vpfree2.com/casino/golden-gate-hotel-casino"
+    },
+    {
+      "id": "loc-044",
+      "title": "Farrell Dillon Comedy Magic",
+      "latitude": 36.11742,
+      "longitude": -115.16846,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-045",
+      "title": "The Conjurors",
+      "latitude": 36.11742,
+      "longitude": -115.16846,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-046",
+      "title": "Late Night Magic",
+      "latitude": 36.11742,
+      "longitude": -115.16846,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-047",
+      "title": "Balboa Pizza",
+      "latitude": 36.02089,
+      "longitude": -115.08778,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-048",
+      "title": "Sid's Café",
+      "latitude": 36.13641,
+      "longitude": -115.15151,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-049",
+      "title": "Flights Restaurant Las Vegas",
+      "latitude": 36.10929,
+      "longitude": -115.17076,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-050",
+      "title": "Hash House a Go Go",
+      "latitude": null,
+      "longitude": null,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-051",
+      "title": "Machine Guns Vegas",
+      "latitude": 36.12711,
+      "longitude": -115.18341,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-052",
+      "title": "808 Cafe",
+      "latitude": 36.11651,
+      "longitude": -115.26236,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-053",
+      "title": "Love Cloud",
+      "latitude": 36.20872,
+      "longitude": -115.20351,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-054",
+      "title": "The Composer's Room",
+      "latitude": 36.14204,
+      "longitude": -115.1423,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-055",
+      "title": "Zenshin Asian Restaurant",
+      "latitude": 36.01058,
+      "longitude": -115.17556,
+      "vpfree2": null
+    },
+    {
+      "id": "loc-056",
+      "title": "Faaabulous Drag Brunch Show",
+      "latitude": 36.11683,
+      "longitude": -115.18862,
+      "vpfree2": null
+    }
+  ],
+  "books": [
+    {
+      "id": "lva-paper",
+      "title": "Las Vegas Advisor Member Rewards Book 2026",
+      "shortTitle": "LVA26",
+      "coupons": [
+        {
+          "id": "lva-paper-001",
+          "location": "loc-001",
+          "title": "$5 Slot Bonus upon earning 5 points",
+          "description": "$5 Slot Bonus upon earning 5 points (Book's stated value: $5.00.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-002",
+          "location": "loc-002",
+          "title": "$15 video poker bonus",
+          "description": "$15 video poker bonus (Book's stated value: $6.75.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-003",
+          "location": "loc-003",
+          "title": "Buy one lunch or dinner entrée in Magnolia's and get a second entrée free",
+          "description": "Buy one lunch or dinner entrée in Magnolia's and get a second entrée free (Book's stated value: $18.49.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-004",
+          "location": "loc-004",
+          "title": "Play $20 and get a comped menu item",
+          "description": "Play $20 and get a comped menu item (Book's stated value: $21.99.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-005",
+          "location": "loc-005",
+          "title": "Get a 60-minute couples full-body massage plus add-on for $149",
+          "description": "Get a 60-minute couples full-body massage plus add-on for $149 (Book's stated value: $140.00.)",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-006",
+          "location": "loc-006",
+          "title": "Buy one entrée and get the second entrée free, or 50% off one entrée",
+          "description": "Buy one entrée and get the second entrée free, or 50% off one entrée (Book's stated value: $32.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-007",
+          "location": "loc-007",
+          "title": "25% off prevailing room rate and $10 Off Resort Fee",
+          "description": "25% off prevailing room rate and $10 Off Resort Fee (Book's stated value: $74.00.)",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-008",
+          "location": "loc-008",
+          "title": "$10 matchplay",
+          "description": "$10 matchplay (Book's stated value: $4.70.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-009",
+          "location": "loc-009",
+          "title": "Receive 25% off total bill (up to $100 discount) at Top of Binion's Steakhouse",
+          "description": "Receive 25% off total bill (up to $100 discount) at Top of Binion's Steakhouse (Book's stated value: $100.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-010",
+          "location": "loc-010",
+          "title": "$25 Matchplay",
+          "description": "$25 Matchplay (Book's stated value: $11.75.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-011",
+          "location": "loc-008",
+          "title": "Play $10 on slots or video poker and get $10-$100 free-play",
+          "description": "Play $10 on slots or video poker and get $10-$100 free-play (Book's stated value: $15.00.)",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-012",
+          "location": "loc-011",
+          "title": "Earn 100 club points and spin the Wheel of Cash to win up to $100",
+          "description": "Earn 100 club points and spin the Wheel of Cash to win up to $100 (Book's stated value: $16.00.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-013",
+          "location": "loc-002",
+          "title": "Buy one menu item and get second free",
+          "description": "Buy one menu item and get second free (Book's stated value: $21.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-014",
+          "location": "loc-012",
+          "title": "$10 slot bonus",
+          "description": "$10 slot bonus (Book's stated value: $10.00.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-015",
+          "location": "loc-012",
+          "title": "Buy any electronic special, get a free small Rainbow pack",
+          "description": "Buy any electronic special, get a free small Rainbow pack (Book's stated value: $6.00.)",
+          "categories": [
+            "all-purpose-comp"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-016",
+          "location": "loc-010",
+          "title": "Buy one Coney Hot Dog and get the second free",
+          "description": "Buy one Coney Hot Dog and get the second free (Book's stated value: $4.50.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-017",
+          "location": "loc-013",
+          "title": "Earn 1,000 points and receive $25 in slot free-play",
+          "description": "Earn 1,000 points and receive $25 in slot free-play (Book's stated value: $25.00.)",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-018",
+          "location": "loc-013",
+          "title": "Buy one entree, get second entree free in Fat Choy",
+          "description": "Buy one entree, get second entree free in Fat Choy (Book's stated value: $15.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-019",
+          "location": "loc-005",
+          "title": "Receive $10-$1,000 slot free-play",
+          "description": "Receive $10-$1,000 slot free-play (Book's stated value: $15.00.)",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-020",
+          "location": "loc-014",
+          "title": "Buy one entrée and get the second entrée free, or 50% off one entrée",
+          "description": "Buy one entrée and get the second entrée free, or 50% off one entrée (Book's stated value: $16.99.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-021",
+          "location": "loc-003",
+          "title": "$10 slot free-play",
+          "description": "$10 slot free-play (Book's stated value: $9.95.)",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-022",
+          "location": "loc-015",
+          "title": "$20 slot bonus",
+          "description": "$20 slot bonus (Book's stated value: $10.80.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-023",
+          "location": "loc-016",
+          "title": "Get $50 in dining for $25 in Rosati's",
+          "description": "Get $50 in dining for $25 in Rosati's (Book's stated value: $25.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-024",
+          "location": "loc-017",
+          "title": "Earn 200 club points and get our famous ribeye dinner",
+          "description": "Earn 200 club points and get our famous ribeye dinner (Book's stated value: $13.99.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-025",
+          "location": "loc-018",
+          "title": "Get $4 off admission to the Mob Museum",
+          "description": "Get $4 off admission to the Mob Museum (Book's stated value: $4.00.)",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-026",
+          "location": "loc-007",
+          "title": "$10 Matchplay",
+          "description": "$10 Matchplay (Book's stated value: $4.70.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-027",
+          "location": "loc-019",
+          "title": "Receive 20% off total bill in Treasures Steakhouse",
+          "description": "Receive 20% off total bill in Treasures Steakhouse (Book's stated value: $40.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-028",
+          "location": "loc-001",
+          "title": "$5 to $50 Match Bet",
+          "description": "$5 to $50 Match Bet (Book's stated value: $24.70.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-029",
+          "location": "loc-020",
+          "title": "Buy one tower ticket or ride package and get the second one free",
+          "description": "Buy one tower ticket or ride package and get the second one free (Book's stated value: $30.00.)",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-030",
+          "location": "loc-006",
+          "title": "Earn 200 club points and spin the Wheel of Cash to win up to $100",
+          "description": "Earn 200 club points and spin the Wheel of Cash to win up to $100 (Book's stated value: $21.00.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-031",
+          "location": "loc-009",
+          "title": "Buy one entrée at Binion's Café, get second one free",
+          "description": "Buy one entrée at Binion's Café, get second one free (Book's stated value: $20.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-032",
+          "location": "loc-009",
+          "title": "15% off prevailing room rate",
+          "description": "15% off prevailing room rate (Book's stated value: $72.45.)",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-033",
+          "location": "loc-012",
+          "title": "25% off prevailing room rate plus $10-per-night food credit",
+          "description": "25% off prevailing room rate plus $10-per-night food credit (Book's stated value: $60.75.)",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-034",
+          "location": "loc-020",
+          "title": "30% off prevailing room rate",
+          "description": "30% off prevailing room rate (Book's stated value: $72.40.)",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-035",
+          "location": "loc-021",
+          "title": "15% off Supercar or 20% off Race Car Experience",
+          "description": "15% off Supercar or 20% off Race Car Experience (Book's stated value: $140.00.)",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-036",
+          "location": "loc-022",
+          "title": "Enjoy 2 complimentary glasses of champagne at Legacy Club",
+          "description": "Enjoy 2 complimentary glasses of champagne at Legacy Club (Book's stated value: $25.00.)",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-037",
+          "location": "loc-001",
+          "title": "Best prevailing room rate with NO resort fee",
+          "description": "Best prevailing room rate with NO resort fee (Book's stated value: $175.00.)",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-038",
+          "location": "loc-023",
+          "title": "Get $100 in dining for $75 in Triple George Grill",
+          "description": "Get $100 in dining for $75 in Triple George Grill (Book's stated value: $25.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-039",
+          "location": "loc-008",
+          "title": "Buy one entrée and get the second entrée free, or 50% off one entrée",
+          "description": "Buy one entrée and get the second entrée free, or 50% off one entrée (Book's stated value: $22.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-040",
+          "location": "loc-024",
+          "title": "Buy one cocktail at The Deck Rooftop Bar and get a second cocktail free",
+          "description": "Buy one cocktail at The Deck Rooftop Bar and get a second cocktail free (Book's stated value: $12.00.)",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-041",
+          "location": "loc-015",
+          "title": "Get $10 off total bill of $25 or more in Klondike Grill",
+          "description": "Get $10 off total bill of $25 or more in Klondike Grill (Book's stated value: $10.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-042",
+          "location": "loc-025",
+          "title": "$10 Matchplay",
+          "description": "$10 Matchplay (Book's stated value: $4.70.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-043",
+          "location": "loc-026",
+          "title": "Earn 200/300 club points and get a comped menu item/$25 free-play",
+          "description": "Earn 200/300 club points and get a comped menu item/$25 free-play (Book's stated value: $16.00.)",
+          "categories": [
+            "dining",
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-044",
+          "location": "loc-012",
+          "title": "Buy one entrée in Fresh Mexican Grill and get a second entrée free",
+          "description": "Buy one entrée in Fresh Mexican Grill and get a second entrée free (Book's stated value: $20.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-045",
+          "location": "loc-027",
+          "title": "Receive 20% off total bill in Taverna Costera",
+          "description": "Receive 20% off total bill in Taverna Costera (Book's stated value: $0.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-046",
+          "location": "loc-025",
+          "title": "Buy one adult ticket for The Magic of Jen Kramer and get a second ticket free",
+          "description": "Buy one adult ticket for The Magic of Jen Kramer and get a second ticket free (Book's stated value: $25.00.)",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-047",
+          "location": "loc-028",
+          "title": "30% off prevailing room rate with NO resort fee",
+          "description": "30% off prevailing room rate with NO resort fee (Book's stated value: $0.00.)",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-048",
+          "location": "loc-029",
+          "title": "$10 slot free-play or $10 free bet",
+          "description": "$10 slot free-play or $10 free bet (Book's stated value: $10.00.)",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-049",
+          "location": "loc-030",
+          "title": "Buy one entrée and get the second entrée free",
+          "description": "Buy one entrée and get the second entrée free (Book's stated value: $30.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-050",
+          "location": "loc-012",
+          "title": "Buy one drink at Carousel bar and get a second drink free",
+          "description": "Buy one drink at Carousel bar and get a second drink free (Book's stated value: $16.00.)",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-051",
+          "location": "loc-028",
+          "title": "Receive 20% off total bill in Luckley Tavern & Grill",
+          "description": "Receive 20% off total bill in Luckley Tavern & Grill (Book's stated value: $0.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-052",
+          "location": "loc-028",
+          "title": "Buy one drink at LAPA Lounge and get a second drink free",
+          "description": "Buy one drink at LAPA Lounge and get a second drink free (Book's stated value: $18.00.)",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-053",
+          "location": "loc-028",
+          "title": "Earn 200 slot points and receive a $25 slot bonus",
+          "description": "Earn 200 slot points and receive a $25 slot bonus (Book's stated value: $25.00.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-054",
+          "location": "loc-031",
+          "title": "$10 slot free-play",
+          "description": "$10 slot free-play (Book's stated value: $10.00.)",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-055",
+          "location": "loc-032",
+          "title": "1 free gift per quarter",
+          "description": "1 free gift per quarter (Book's stated value: $0.00.)",
+          "categories": [
+            "all-purpose-comp"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-056",
+          "location": "loc-013",
+          "title": "Young @ Heart $10 bonus",
+          "description": "Young @ Heart $10 bonus (Book's stated value: $0.00.)",
+          "categories": [
+            "slot-bonus"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-057",
+          "location": "loc-033",
+          "title": "$25 Matchplay",
+          "description": "$25 Matchplay (Book's stated value: $10.00.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-058",
+          "location": "loc-033",
+          "title": "$10 Matchplay",
+          "description": "$10 Matchplay (Book's stated value: $4.70.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-059",
+          "location": "loc-032",
+          "title": "Pay 3-to-1 on your first natural blackjack",
+          "description": "Pay 3-to-1 on your first natural blackjack (Book's stated value: $0.00.)",
+          "categories": [
+            "all-purpose-comp"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-060",
+          "location": "loc-034",
+          "title": "Buy one pie/slice and get second pie/slice free",
+          "description": "Buy one pie/slice and get second pie/slice free (Book's stated value: $50.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-061",
+          "location": "loc-022",
+          "title": "Buy one sandwich from Project BBQ and get the second free",
+          "description": "Buy one sandwich from Project BBQ and get the second free (Book's stated value: $22.00.)",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-062",
+          "location": "loc-035",
+          "title": "Buy one limited-edition Yard-Tall Frozen Cocktail at Five Guys, get second one free",
+          "description": "Buy one limited-edition Yard-Tall Frozen Cocktail at Five Guys, get second one free (Book's stated value: $27.00.)",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-063",
+          "location": "loc-025",
+          "title": "Receive one free drink at International Bar",
+          "description": "Receive one free drink at International Bar (Book's stated value: $0.00.)",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-064",
+          "location": "loc-036",
+          "title": "2 Free Show Tickets to Jimmy Kimmel's Comedy Club",
+          "description": "2 Free Show Tickets to Jimmy Kimmel's Comedy Club (Book's stated value: $90.00.)",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-065",
+          "location": "loc-028",
+          "title": "Get $25 off regular VIP tickets to Marriage Can Be Murder",
+          "description": "Get $25 off regular VIP tickets to Marriage Can Be Murder (Book's stated value: $50.00.)",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-066",
+          "location": "loc-032",
+          "title": "2 Free tickets to Delirious Comedy Club or House of Magic",
+          "description": "2 Free tickets to Delirious Comedy Club or House of Magic (Book's stated value: $97.00.)",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-067",
+          "location": "loc-020",
+          "title": "Buy one ticket to LA Comedy Club and get a second ticket free",
+          "description": "Buy one ticket to LA Comedy Club and get a second ticket free (Book's stated value: $79.52.)",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-068",
+          "location": "loc-022",
+          "title": "$25 Matchplay",
+          "description": "$25 Matchplay (Book's stated value: $11.75.)",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-069",
+          "location": "loc-037",
+          "title": "20% off The Hall of Excellence",
+          "description": "20% off The Hall of Excellence (Book's stated value: $7.00.)",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-paper-070",
+          "location": "loc-038",
+          "title": "Ultimate VIP Grand Canyon Tour upgrade",
+          "description": "Ultimate VIP Grand Canyon Tour upgrade (Book's stated value: $30.00.)",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Book 2026",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-list/",
+          "extra": "Las Vegas Advisor 2026 Member Rewards Book - Platinum Members only (per page introduction). Terms & Conditions: Terms not publicly available on the source page as fetched - each table row links to 'Terms & Conditions', but the link text is not exposed as a followable link in the text fetch and no per-coupon terms text is indexed for this row; check the physical book / linked terms before redeeming. No start or expiration date is given in the public table; the dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        }
+      ]
+    },
+    {
+      "id": "lva-online",
+      "title": "Las Vegas Advisor Member Rewards Online",
+      "shortTitle": "LVA Online",
+      "coupons": [
+        {
+          "id": "lva-online-001",
+          "location": "loc-005",
+          "title": "Get a 60-minute single full-body massage plus add-on for $79",
+          "description": "Get a 60-minute single full-body massage plus add-on for $79",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the cashier prior to purchase to receive a 60-minute full-body hot stone massage with one free add-on (facial mask, sugar scrub, or essential oil) for $79 at NV SPA. Terms & Conditions (source coupon page): Get a 60-minute full-body hot stone massage with one free add-on (facial mask, sugar scrub, or essential oil) for $79 at NV SPA, located on the second floor above the casino lobby. Available 7 days a week, open from 10 a.m.-12 a.m. Must present voucher to cashier prior to purchase. Voucher has no cash value. Not valid with any other offer. (Single-person voucher available in Member Rewards Online.) Management reserves all rights. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-002",
+          "location": "loc-039",
+          "title": "$10 Off Show Tickets",
+          "description": "$10 Off Show Tickets",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-29",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the Four Queens box office employee to receive $10 off general admission tickets. Terms & Conditions (source coupon page): Present this voucher at the Four Queens Box Office to receive $10 off general admission tickets to Kevin Lepine Hypnosis Unleashed. Limit 4 tickets per voucher. Tax and fees not included. Not valid on previously purchased tickets. No cash value. Non-transferable. Not available with any other offer, discount or promotion. Management reserves all rights. Expires December 29, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-003",
+          "location": "loc-040",
+          "title": "10% Off Cartzilla Strip Tour",
+          "description": "10% Off Cartzilla Strip Tour",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem (LVA Cartzilla venue page): Print voucher and use the promo code to book online at cartzillaride.com; when you check in for the tour, present the printed voucher to the employee to receive 10% off your Cartzilla tour. No Terms & Conditions block and no expiration date are shown on the LVA Cartzilla page as fetched. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed. The dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-004",
+          "location": "loc-041",
+          "title": "2-For-1 Slice at Carnegie Pizza",
+          "description": "2-For-1 Slice at Carnegie Pizza",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-28",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the restaurant employee to purchase one slice and get a second slice free. Terms & Conditions (source coupon page): Purchase one slice and get second slice free. Valid for one slice only. Must purchase one slice to receive another of equal or lesser value free. Limited to one voucher per person per year. Not valid with any other offers or promotions. Offer has no cash value. Voucher is void if altered or duplicated. Management reserves the right to alter or cancel this offer without notice. Offer expires December 28, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-005",
+          "location": "loc-035",
+          "title": "2-For-1 Beer or Wine at Five Guys",
+          "description": "2-For-1 Beer or Wine at Five Guys",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the restaurant employee before ordering to receive one beer or wine and get a second one free. Terms & Conditions (source coupon page): Located in the Canal Shoppes at the Venetian. Purchase one beer or wine and receive a second one free. Not to be used in conjunction with any other offer. One voucher per person per year. Must be at least 21 years of age. Voucher has no cash value. Management reserves all rights. Offer expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-006",
+          "location": "loc-007",
+          "title": "$5 off bill in River Rock Pizza & Pasta",
+          "description": "$5 off bill in River Rock Pizza & Pasta",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print voucher and present it to the food server at time of order to receive $5 off a total bill at or above $20. Terms & Conditions (source coupon page): Receive $5 off total bill at or above $20, pre-tax. Use code [PRINT TO SEE CODE]. One voucher per person/subscriber. Voucher must be presented to food server at time of order. Good for Dine in Only. Voucher is non-transferrable and has no cash value. Must be 21 or older. Offer is not valid for gaming-prohibited guests. Not valid with any other offer. Original vouchers only. Must be a member of True Rewards loyalty program, visit the rewards center to sign up - membership is free. Once signed up visit our local True Rewards kiosk to print your LVA coupon. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-007",
+          "location": "loc-042",
+          "title": "20% off daily RV Park rate",
+          "description": "20% off daily RV Park rate",
+          "categories": [
+            "accommodations"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-29",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Use the promo code to book by phone to receive 20% off the daily RV rate at Arizona Charlie's Boulder. Must present and surrender this voucher upon check-in. Terms & Conditions (source coupon page): Use [PRINT TO SEE CODE] when booking by phone to receive 20% off the daily RV rate at Arizona Charlie's Boulder. 5-day max nights. Reservations must be made by phone through Arizona Charlie's directly. Must present and surrender this voucher upon check-in. Taxes are separate. Not valid with any other offer. Management reserves all rights. No cash value. Blackout dates apply. Offer expires December 29, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-008",
+          "location": "loc-012",
+          "title": "$500 slot free-play for a royal flush at Carousel Bar",
+          "description": "$500 slot free-play for a royal flush at Carousel Bar",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-28",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Receive $500 slot free-play when you hit a natural royal flush (no wild cards). Terms & Conditions (source coupon page): Valid in Carousel bar only. Valid when playing 25c and higher denomination (min. 5-coin play). Limit one offer per account, per calendar year. Royal flush must be verified by bartender and slot personnel. Must be actively playing with a Plaza Rewards card. Must be 21 years or older. Management reserves the right to alter or cancel this offer without notice. Offer expires December 28, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-009",
+          "location": "loc-010",
+          "title": "$5 in free-play for every 50 points earned on slots or video poker",
+          "description": "$5 in free-play for every 50 points earned on slots or video poker",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-29",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to a Club One employee before playing to receive $5 free slot play for every 50 points earned up to a $100 maximum bonus. Terms & Conditions (source coupon page): Voucher must be redeemed at Club One prior to play. Receive $5 free slot play for every 50 points earned up to a $100 maximum bonus. Any bonus must be redeemed within the first 24-hours of play and can be redeemed one time only. Player keeps points earned. Limit one offer per account per calendar year. Cannot be used in conjunction with Club One new member sign-up bonus. Valid government issued ID required to join Club One. Must be 21 or older. Membership is free. Management reserves all rights. No cash value. Offer expires December 29, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-010",
+          "location": "loc-043",
+          "title": "$5 in free-play for every 50 points earned on slots or video poker",
+          "description": "$5 in free-play for every 50 points earned on slots or video poker",
+          "categories": [
+            "free-play"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-29",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to a Club One employee before playing to receive $5 free slot play for every 50 points earned up to a $100 maximum bonus. Terms & Conditions (source coupon page): Voucher must be redeemed at Club One prior to play. Receive $5 free slot play for every 50 points earned up to a $100 maximum bonus. Any bonus must be redeemed within the first 24-hours of play and can be redeemed one time only. Player keeps points earned. Limit one offer per account per calendar year. Cannot be used in conjunction with Club One new member sign-up bonus. Valid government issued ID required to join Club One. Must be 21 or older. Membership is free. Management reserves all rights. No cash value. Offer expires December 29, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-011",
+          "location": "loc-044",
+          "title": "2-For-1 Show Tickets to Farrell Dillon",
+          "description": "2-For-1 Show Tickets to Farrell Dillon",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Present this voucher at the box office to receive 50% off Regular or VIP show tickets to Farrell Dillon. Terms & Conditions (source coupon page): Good for up to 8 tickets per transaction. Use promo code LVA50 when booking online. Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Adults only. Offer expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-012",
+          "location": "loc-045",
+          "title": "2-For-1 Show Tickets to The Conjurors",
+          "description": "2-For-1 Show Tickets to The Conjurors",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Present this voucher at the box office to receive 50% off Regular or VIP show tickets to The Conjurors. Terms & Conditions (source coupon page): Good for up to 8 tickets per transaction. Use promo code LVA50 when booking online. Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Adults only. Offer expires December 30, 2026. Source page note: this show is due to begin March 13, 2026 (show start, not a coupon start date). Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-013",
+          "location": "loc-046",
+          "title": "2-For-1 Show Tickets to Late Night Magic",
+          "description": "2-For-1 Show Tickets to Late Night Magic",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Present this voucher at the box office to receive 50% off Regular or VIP show tickets to Late Night Magic. Terms & Conditions (source coupon page): Good for up to 8 tickets per transaction. Use promo code LVA50 when booking online. Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Adults only. No one under 18 years of age will be admitted. Offer expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-014",
+          "location": "loc-047",
+          "title": "2-For-1 Balboa Pizza",
+          "description": "2-For-1 Balboa Pizza",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the restaurant employee to buy one pizza, get one free (of equal or lesser value). Terms & Conditions (source coupon page): Buy one pizza, get one free (of equal or lesser value). Valid 7 days a week. Dine-in only. Coupon must be presented at time of purchase. One coupon per party. Not valid with any other offer. Expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-015",
+          "location": "loc-048",
+          "title": "FREE appetizer with the purchase of an entrée",
+          "description": "FREE appetizer with the purchase of an entrée",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to your server and receive one free appetizer with the purchase of one entree at Sid's Cafe. Terms & Conditions (source coupon page): Present this voucher to your server and receive one free appetizer with the purchase of one entree at Sid's Cafe. Not valid with any other offers or promotions. Non-redeemable for cash. Gratuity not included. Management reserves all rights. Voucher has no cash value. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-016",
+          "location": "loc-049",
+          "title": "Free Drink Flight",
+          "description": "Free Drink Flight",
+          "categories": [
+            "drinks"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the restaurant employee before ordering to receive one free drink flight with a $50 minimum purchase. Terms & Conditions (source coupon page): Receive one free drink flight with the purchase of any item of equal or greater value. Valid 7 days a week. Must present at time of purchase. One per person. Not valid with any other offer. Expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-017",
+          "location": "loc-050",
+          "title": "15% Off Bill",
+          "description": "15% Off Bill",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to your server to receive 15% off (food only). Terms & Conditions (source coupon page): Present this voucher to your server to receive 15% off (food only). Valid at 6800 W. Sahara Ave. One voucher per person/subscriber. Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-018",
+          "location": "loc-051",
+          "title": "20% Off Regular Priced Experience",
+          "description": "20% Off Regular Priced Experience",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to receive 20% off any one regular priced experience. Valid Mon-Thurs ONLY. Terms & Conditions (source coupon page): Present this voucher to receive 20% off any one regular priced experience. Redemption code: [PRINT TO SEE CODE]. Valid Mon-Thurs ONLY. Not valid on previous purchases or discounted packages. No refunds or exchanges. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-019",
+          "location": "loc-052",
+          "title": "5-10% Off Total Bill",
+          "description": "5-10% Off Total Bill",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the restaurant employee before ordering to receive 5%-off a total bill of $25 or more or 10%-off a total bill of $100 or more. Terms & Conditions (source coupon page): Get 5%-off a total bill of $25 or more. Get 10%-off a total bill of $100 or more. Gratuity and tax not included. No food to go. Can not combine discounts. Not valid with any other offer. Must present voucher before ordering. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-020",
+          "location": "loc-052",
+          "title": "$5 House Fried Rice",
+          "description": "$5 House Fried Rice",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to your server to receive an order of House Fried Rice (choice of spam, bbq pork, chicken or beef) for $5 after spending $40. Terms & Conditions (source coupon page): Present this voucher to your server to receive an order of House Fried Rice (choice of spam, bbq pork, chicken or beef) for $5 after spending $40. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-021",
+          "location": "loc-053",
+          "title": "15% Off Total Love Cloud Experience",
+          "description": "15% Off Total Love Cloud Experience",
+          "categories": [
+            "experience"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-28",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print voucher and use the promo code to book online at lovecloudvegas.com. When you check in, present the printed voucher to the employee at the Love Cloud counter to receive 15% off your total Love Cloud experience. Terms & Conditions (source coupon page): Use code [PRINT TO SEE CODE] when booking online at lovecloudvegas.com and receive 15% off your total Love Cloud experience. Limit one voucher per person. Must present and surrender this voucher at Love Cloud counter. Not valid with any other offers. Offer has no cash value. Voucher is void if altered or duplicated. Management reserves the right to alter or cancel this offer without notice. Offer expires December 28, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-022",
+          "location": "loc-054",
+          "title": "2 Free Show Tickets PLUS 25% Off Total Bill",
+          "description": "2 Free Show Tickets PLUS 25% Off Total Bill",
+          "categories": [
+            "entertainment",
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "Terms not publicly available on the source page as fetched: no individual Member Rewards Online coupon page with terms for this offer was found in search or on the online list text, so no terms text is recorded here - check the LVA online coupon before redeeming. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed. The dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-023",
+          "location": "loc-055",
+          "title": "$10 Off Total Bill",
+          "description": "$10 Off Total Bill",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to the restaurant server before ordering to receive $10 off your total pre-tax check amount of $50 or greater. Terms & Conditions (source coupon page): Present this voucher to receive $10 off of your total pre-tax check amount of $50 or greater during your next visit to Zenshin Asian Restaurant. Dine In Only. Voucher may not be duplicated, must be presented to the server, is non-transferable and has no cash value. One voucher per person/per table and cannot be combined with any other discounts or offers. Not valid on Holidays or during the following dates: December 2-15, 2025 (as written on the source page). Promotion may be changed and/or discontinued at the discretion of management. Offer expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-024",
+          "location": "loc-050",
+          "title": "25% Off Bill",
+          "description": "25% Off Bill",
+          "categories": [
+            "dining"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-30",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher to your server to receive 25% off (food only). Terms & Conditions (source coupon page): Present this voucher to your server to receive 25% off (food only). Valid at 6800 W. Sahara Ave. One voucher per person/subscriber. Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 30, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-025",
+          "location": "loc-056",
+          "title": "$20 Off Show Tickets",
+          "description": "$20 Off Show Tickets",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher at the box office to receive $20 off Regular, VIP, and Queen Package Seating. Terms & Conditions (source coupon page): Present this voucher at the box office to receive $20 off Regular, VIP, and Queen Package Seating to Faaabulous Drag Brunch. Good for up to 8 tickets per transaction. Use promo code LVA26 when booking online or by phone (must print and surrender coupon at box office). Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-026",
+          "location": "loc-056",
+          "title": "$25 Off Show Tickets",
+          "description": "$25 Off Show Tickets",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "How to redeem: Print and present this voucher at the box office to receive $25 off Regular, VIP, and Queen Package Seating. Terms & Conditions (source coupon page): Present this voucher at the box office to receive $25 off Regular, VIP, and Queen Package Seating to Faaabulous Drag Brunch. Good for up to 8 tickets per transaction. Use promo code LVA26G when booking online or by phone (must print and surrender coupon at box office). Vouchers are not transferable and are not redeemable for cash. Not valid on holidays. Not valid with any other offer. Offer may be changed or discontinued at any time at the discretion of management. Original vouchers only. Offer is void if sold. Offer expires December 31, 2026. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-027",
+          "location": "loc-032",
+          "title": "Free Gift: Oct-Dec 2026",
+          "description": "Free Gift: Oct-Dec 2026",
+          "categories": [
+            "all-purpose-comp"
+          ],
+          "startDate": "2026-10-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "Terms not publicly available on the source page as fetched: no individual Member Rewards Online coupon page with terms for this offer was found in search or on the online list text, so no terms text is recorded here - check the LVA online coupon before redeeming. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed. The offer title states Oct-Dec 2026; the dates on this coupon are derived from that title period (2026-10-01 to 2026-12-31), not an explicit day-level source date and not the user default.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-028",
+          "location": "loc-032",
+          "title": "2 Free Show Tickets Show - Oct-Dec 2026",
+          "description": "2 Free Show Tickets Show - Oct-Dec 2026",
+          "categories": [
+            "entertainment"
+          ],
+          "startDate": "2026-10-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "Terms not publicly available on the source page as fetched: no individual Member Rewards Online coupon page with terms for this offer was found in search or on the online list text, so no terms text is recorded here - check the LVA online coupon before redeeming. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed. The offer title states Oct-Dec 2026; the dates on this coupon are derived from that title period (2026-10-01 to 2026-12-31), not an explicit day-level source date and not the user default.",
+          "removed": false
+        },
+        {
+          "id": "lva-online-029",
+          "location": "loc-032",
+          "title": "Pay 3-to-1 on your first natural blackjack - Oct",
+          "description": "Pay 3-to-1 on your first natural blackjack - Oct",
+          "categories": [
+            "all-purpose-comp"
+          ],
+          "startDate": "2026-01-01",
+          "expirationDate": "2026-12-31",
+          "source": "Las Vegas Advisor Member Rewards Online",
+          "sourceUrl": "https://www.lasvegasadvisor.com/member-rewards-online/",
+          "extra": "Terms not publicly available on the source page as fetched: no individual Member Rewards Online coupon page with terms for this offer was found in search or on the online list text, so no terms text is recorded here - check the LVA online coupon before redeeming. Member Rewards Online: coupons MUST be printed to use (phones/tablets do not work with the site's print flow); a coupon can only be printed once per membership, and clicking 'Print Coupon' registers it as printed whether or not it actually printed. The offer title is truncated in the source text ('- Oct'); its full period could not be verified, so no period-derived dates are used. The dates on this coupon are the user-directed default, not a source date.",
+          "removed": false
+        }
+      ]
+    },
+    {
+      "id": "promo",
+      "title": "Promo",
+      "shortTitle": "Promo",
+      "coupons": [
+        {
+          "id": "promo-001",
+          "location": "loc-005",
+          "title": "Boarding Pass Offer",
+          "description": "Boarding Pass Offer: $10-$1,000 in free slot play, $25 blackjack match play, and a free drink at any El Cortez bar",
+          "categories": [
+            "free-play",
+            "match-play",
+            "drinks"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Show your PAPER or DIGITAL boarding pass within 72 hours of landing. Good once per year. Thread note: earn 1000 and 2000 slot points for a second and third redemption at a later date. After showing the boarding pass at the desk, swipe your players-club card at a kiosk to get the coupons / load the free play (per thread replies). No hotel stay required (per thread reply: any airline). Official offer page linked in thread: https://elcortezhotelcasino.com/offers/boarding-pass-offer/",
+          "removed": false
+        },
+        {
+          "id": "promo-002",
+          "location": "loc-022",
+          "title": "Say Hi to Matthew: $25 match play",
+          "description": "Say Hi to Matthew: $25 match play",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Mention 'Say Hi to Matthew'. Thread summary: good at both Circa and The D, 1x per day, 2x lifetime. End date stated as '???' in the thread (unknown) — left blank, not guessed. This coupon is the Circa half of the shared Club One offer; the matching The D coupon is promo-003.",
+          "removed": false
+        },
+        {
+          "id": "promo-003",
+          "location": "loc-010",
+          "title": "Say Hi to Matthew: $25 match play",
+          "description": "Say Hi to Matthew: $25 match play",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Mention 'Say Hi to Matthew'. Thread summary: good at both Circa and The D, 1x per day, 2x lifetime. End date stated as '???' in the thread (unknown) — left blank, not guessed. This coupon is the The D half of the shared Club One offer; the matching Circa coupon is promo-002. Thread replies dispute whether name-drop offers are once-a-year / once-and-done — the summary's 1x-per-day / 2x-lifetime wording is used here, and the dispute is recorded in DATA-PROVENANCE.md.",
+          "removed": false
+        },
+        {
+          "id": "promo-004",
+          "location": "loc-022",
+          "title": "Boarding Pass: $50 match play",
+          "description": "Boarding Pass: $50 match play",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Show your DIGITAL or PAPER boarding pass within 24 hours of landing. Redeem at either Circa or The D. This coupon is the Circa half of the shared Club One boarding-pass offer; the matching The D coupon is promo-005. Thread replies stress the 24-hour window is enforced strictly at The D / Golden Gate.",
+          "removed": false
+        },
+        {
+          "id": "promo-005",
+          "location": "loc-010",
+          "title": "Boarding Pass: $50 match play",
+          "description": "Boarding Pass: $50 match play",
+          "categories": [
+            "match-play"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Show your DIGITAL or PAPER boarding pass within 24 hours of landing. Redeem at either Circa or The D. This coupon is the The D half of the shared Club One boarding-pass offer; the matching Circa coupon is promo-004.",
+          "removed": false
+        },
+        {
+          "id": "promo-006",
+          "location": "loc-001",
+          "title": "Gamble Smart name-drop: $50 Match Play, then $15 Freeplay after earning 15 points",
+          "description": "Gamble Smart name-drop: $50 Match Play, then $15 Freeplay after earning 15 points",
+          "categories": [
+            "match-play",
+            "free-play"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Mention 'Gamble Smart said Downtown Grand has something for me.' Then earn 15 points and receive $15 Freeplay. The thread's earlier struck-through phrases ('Dave and Marc From Gamble Smart Sent Me' / 'Downtown Smart said Downtown Grand has something for me.') are NOT seeded — struck through in the summary as superseded.",
+          "removed": false
+        },
+        {
+          "id": "promo-007",
+          "location": "loc-001",
+          "title": "Danny the Medic name-drop: $50 Match Play, then $15 Freeplay after earning 15 points",
+          "description": "Danny the Medic name-drop: $50 Match Play, then $15 Freeplay after earning 15 points",
+          "categories": [
+            "match-play",
+            "free-play"
+          ],
+          "startDate": null,
+          "expirationDate": null,
+          "source": "VegasMessageBoard — Boarding Pass/Name Drop Promotions at Golden Gate, Circa, The D, Downtown Grand, and El Cortez (opening summary post, last edited Aug 30, 2026)",
+          "sourceUrl": "https://www.vegasmessageboard.com/forums/index.php?threads/boarding-pass-name-drop-promotions-at-golden-gate-circa-the-d-downtown-grand-and-el-cortez.198001/",
+          "extra": "Mention 'Danny the Medic says we don't know these things.' Then earn 15 points and receive $15 Freeplay.",
+          "removed": false
+        }
+      ]
+    }
+  ]
+}
