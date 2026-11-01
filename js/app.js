@@ -15,7 +15,7 @@ let installed = isInstalled();
 let view = { name: 'home' }; // {name, ...}
 let history = []; // in-app back stack (separate from Back-position restore)
 let lastFetchAt = null, lastFetchText = '', fetchStatus = '';
-let mapObj = null, mapMarkers = null, userMarker = null, watchId = null, followMe = false;
+let mapObj = null, mapMarkers = null, userMarker = null;
 let focusInOutOnDetail = false;
 
 function today() { return L.todayStr(); }
@@ -479,6 +479,9 @@ function savePersonalFromForm() { if (window._savePersonal) window._savePersonal
 
 // ---- Map ----
 function renderMapView(filtered, ctx, settings, run) {
+  // Fresh map object: drop the dot from the previous map so the new map
+  // gets its own dot (a marker added to the old map would not show here).
+  userMarker = null;
   const withCoords = filtered.filter(c => { const l = locsById[c.location]; return l && l.latitude !== null && l.longitude !== null && !L.isExpired(c, today()); });
   const noLoc = filtered.filter(c => { const l = locsById[c.location]; return !(l && l.latitude !== null && l.longitude !== null); });
   // Redeemed and expired are NOT shown on the map; expired already filtered by withCoords check, redeemed filtered for run context:
@@ -486,7 +489,6 @@ function renderMapView(filtered, ctx, settings, run) {
   app.innerHTML = `<div id="map" style="height:60vh"></div>
     <button class="btn btn-warning position-fixed" style="left:12px;bottom:110px;z-index:1000" id="noLocBtn">No-location coupons (${noLoc.length})</button>
     <button class="btn btn-light position-fixed" style="right:12px;bottom:110px;z-index:1000" id="centreBtn" aria-label="Centre on my position">◎ My position</button>
-    <label class="position-fixed bg-light p-1" style="right:12px;bottom:160px;z-index:1000"><input type="checkbox" id="followMe"> Follow me</label>
     <div id="mapPane" class="card d-none mt-2"><div class="card-body"><div id="paneHandle" class="map-pane-handle" role="button" tabindex="0" aria-label="Drag down to close"><div class="map-pane-grip"></div></div><div class="d-flex justify-content-between"><h2 class="h6" id="paneTitle">Coupons here</h2><button class="btn btn-sm btn-outline-secondary" id="paneClose" aria-label="Close">×</button></div><div id="paneList"></div></div></div>
     <p class="text-muted small mt-2">Map pins merge coupons within 10 metres; cluster pins group nearby pins at lower zoom. Tap a cluster to zoom in; at max zoom, nearby pins spread out (spiderfy) — tap a pin to see its coupons below. Redeemed and expired coupons are not shown on the map.</p>`;
   const back = loadBack();
@@ -510,7 +512,6 @@ function renderMapView(filtered, ctx, settings, run) {
   // Close pane by tapping empty map.
   mapObj.on('click', () => hidePane());
   $('#centreBtn').onclick = () => centreOnMe();
-  $('#followMe').onchange = e => { followMe = e.target.checked; if (followMe) centreOnMe(true); };
   // Header controls for map view (bound before the Leaflet guard below, so
   // list view stays reachable even when the map library failed to load).
   $('#hdrView').onclick = () => { if (ctx === 'run') saveView('view-run-' + run.id, { mode: 'list' }); else saveView('view-coupons', { mode: 'list' }); render(); };
@@ -576,21 +577,32 @@ function LmapInit(id, centre, zoom) {
   leaf.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(m);
   return m;
 }
-function centreOnMe(watch = false) {
+function updateUserDot(pos) {
+  const ll = [pos.coords.latitude, pos.coords.longitude];
+  if (window.L && mapObj && mapObj.addLayer) {
+    if (userMarker) userMarker.setLatLng(ll); else userMarker = window.L.circleMarker(ll, { radius: 8, color: '#0d6efd' }).addTo(mapObj);
+  }
+}
+function centreOnMe() {
+  // Explicit tap only: centre the map once AND show the dot. This is the
+  // only place where a position update moves the map. There is no
+  // follow-me, no watch, and no automatic recentring anywhere else.
   if (!navigator.geolocation) { alert('Geolocation is not available on this device.'); return; }
-  const onPos = pos => {
+  navigator.geolocation.getCurrentPosition(pos => {
     const ll = [pos.coords.latitude, pos.coords.longitude];
     if (mapObj && mapObj.setView) mapObj.setView(ll, mapObj.getZoom ? mapObj.getZoom() : 15);
-    if (window.L && mapObj && mapObj.addLayer) {
-      if (userMarker) userMarker.setLatLng(ll); else userMarker = window.L.circleMarker(ll, { radius: 8, color: '#0d6efd' }).addTo(mapObj);
-    }
-  };
-  if (watch) { if (watchId !== null) navigator.geolocation.clearWatch(watchId); watchId = navigator.geolocation.watchPosition(onPos, () => {}, { enableHighAccuracy: true }); }
-  else navigator.geolocation.getCurrentPosition(onPos, () => alert('Could not get your position. Check location permission for this app.'));
+    updateUserDot(pos);
+  }, () => alert('Could not get your position. Check location permission for this app.'));
 }
 function startGeolocation() {
-  // Foreground only: watch only while the map view is open and follow-me is on; no background tracking.
-  if (followMe) centreOnMe(true);
+  // Show the user's position dot when the map opens, without moving the
+  // map at all: no setView, no zoom change, no watch. The dot is display
+  // only — panning and zooming stay exactly where the user left them,
+  // and a later position update never snaps the map back. Silent on
+  // denial/error: opening the map must not pop an alert for a dot the
+  // user did not ask to centre on.
+  if (!navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(updateUserDot, () => {});
 }
 
 // ---- Sharing ----
